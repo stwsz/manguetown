@@ -1,0 +1,7 @@
+#features {
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    background-color: var(--primary-color);
+    color: white;
+}

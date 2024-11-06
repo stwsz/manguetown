@@ -24,7 +24,8 @@ footer #footer-logo-text img {
 }
 
 footer #footer-logo-text p {
-    width: 280px;
+    width: 250px;
+    font-size: 0.9rem;
     color: var(--secondary-color);
     font-weight: 400;
 }
@@ -35,7 +36,7 @@ footer #footer-div-icons {
 }
 
 footer #footer-div-icons img {
-    height: 28px;
+    height: 26px;
     transition: 0.5s;
 }
 

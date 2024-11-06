@@ -1,0 +1,74 @@
+#prototype {
+    width: 100%;
+    padding: 3.5rem 5rem;
+    display: flex;
+    gap: 7rem;
+}
+
+#prototype img {
+    width: 400px;
+}
+
+#prototype #prototype-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#prototype #prototype-infos p:first-child {
+   color: var(--primary-color); 
+   text-align: left;
+   font-size: 2rem;
+   font-weight: 500;
+   width: 420px;
+}
+
+#prototype #prototype-infos a {
+    width: fit-content;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    padding: 1.2rem 1rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+#prototype #prototype-infos a {
+    width: fit-content;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    padding: 1.2rem 1rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+    transition: 0.8s;
+}
+
+#prototype #prototype-infos a:hover {
+    transform: scale(1.1);
+    font-weight: 500;
+    animation: buttonAnimation 1.5s ease infinite alternate;
+}
+
+#prototype #prototype-infos a img {
+    width: 18px;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        background-color: var(--primary-color);
+    }
+    100% {
+        background-color: var(--quinary-color);
+    }
+}
+

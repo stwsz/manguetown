@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @import "./header/header.css";
+@import "./prototype/prototype.css";
 @import "./footer/footer.css";
 
 * {
@@ -8,6 +9,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {

@@ -1,0 +1,29 @@
+#about {
+    width: 70%;
+    padding: 3rem 0rem 5rem 0rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-color);
+}
+
+#about div {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#about div h1 {
+    font-size: 2.5rem;
+}
+
+#about div p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#about img {
+    width: 300px;
+}

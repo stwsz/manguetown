@@ -1,7 +1,32 @@
 #features {
-    width: 90%;
-    height: 200px;
+    width: 100%;
+    padding: 4.5rem 0rem;
     margin: 0 auto;
     background-color: var(--primary-color);
-    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+#features .itens-features {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    color: var(--secondary-color);
+    width: 65%;
+    margin: 0 auto;
+}
+
+#features .itens-features.reverse {
+    flex-direction: row-reverse;
+}
+
+#features .itens-features img {
+    height: 70px;
+}
+
+#features .itens-features div:last-child{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
